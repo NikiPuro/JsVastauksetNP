@@ -17,7 +17,9 @@
     <button id="vaihdaVari">Vaihda taustaväri</button>
 
     <script>
-        document.getElementById('vaihdaVari')
+        document.getElementById('vaihdaVari').addEventListener('click', function() {
+            document.getElementById('laatikko').style.backgroundColor = 'lightblue';
+        });
     </script>
 </body>
 </html>
